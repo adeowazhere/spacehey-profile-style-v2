@@ -46,7 +46,7 @@
     table.comments-table td, .icon, .url-info{
         visibility:hidden; 
         display:none;
-    }
+    }   /* made by Anya on Spacehey */
 
     body:before {
         content: " ";
@@ -78,12 +78,25 @@
 	    main:before {
 		    height: 200px;
 	    }
+    }   /* made by heath on Spacehey */
+
+    @keyframes flying-santa {
+        from{ left:-400px; }
+        to{ left:calc(100% + 20px); }
     }
 
-
+    #santa {
+        position: fixed;
+        left: -400px;
+        bottom: 0px;
+        width: 185px;
+        animation: flying-santa 7s infinite linear;
+        pointer-events: none;
+        z-index: 998;
+    }   /* made by Spacehey */
     
 </style>
 
-<img id="santa" src="https://gifdb.com/images/high/running-deltarune-video-game-characters-xyroq3t6zcmtvmy0.gif"/>
+<img id="santa" src="https://gifdb.com/images/high/running-deltarune-video-game-characters-xyroq3t6zcmtvmy0.gif"/> <!--made by Spacehey-->
 
-<div style="float: left; max-height: 400px; position: fixed; right: 10px; top: 0px; z-index: 200; width: 200px;"><img src="https://static.wikia.nocookie.net/deltarune/images/a/ad/Spamton_NEO_battle_idle.gif/revision/latest/smart/width/250/height/250?cb=20210928203047"/></div>
+<div style="float: left; max-height: 400px; position: fixed; right: 10px; top: 0px; z-index: 200; width: 200px;"><img src="https://static.wikia.nocookie.net/deltarune/images/a/ad/Spamton_NEO_battle_idle.gif/revision/latest/smart/width/250/height/250?cb=20210928203047"/></div> <!--found on someone's page who didn't make it-->
