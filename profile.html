@@ -1,0 +1,89 @@
+<style>
+    * {
+        color: #AAEABD !important ;
+        text-shadow: none !important;
+        text-align: center;
+        font-family: sans-serif;
+    }
+    
+    body {
+        background: url("https://64.media.tumblr.com/bebe37fbd9ca3fbf582550722571b4f6/0a1232bf7ee6e243-3d/s640x960/81b7b4aefe15d9023aed2cde540f733d1388cc33.gif");
+        background-size: cover;
+    }
+    
+    .heading, .general-about, .contact, .url-info, .table-section, tr, td {
+        background-color: transparent !important;
+    }
+    
+    .heading, .general-about, button, nav, .contact, .url-info, .table-section {
+        border: 2px solid !important;
+    }
+    
+    main, nav, footer, button, .top, .links {
+        background-color: rgba(18, 34, 30, 1) !important;
+    }
+    
+    button.logout-btn {
+        padding: 5px !important;
+    } 
+    
+    .profile-pic:hover {
+        content: url("https://i.kym-cdn.com/photos/images/original/002/217/811/ce7.gif") !important;
+    }
+    
+    .person p:hover, .count, main a:hover{
+        color: #FFFDB5 !important;
+        font-size: 15px;
+    }
+    
+    a {
+        text-decoration: underline !important;
+        font-style: italic !important;
+    }
+
+    /* CODE AFTER THIS POINT IS NOT MY CODE UNLESS STATED OTHERWISE */
+
+    table.comments-table td, .icon, .url-info{
+        visibility:hidden; 
+        display:none;
+    }
+
+    body:before {
+        content: " ";
+        height: 100vh;
+        width: 100vw;
+        display: block;
+        position: fixed; 
+        top: 0; 
+        left: 0; 
+        z-index: 1000;
+        background-image: url('https://media.tenor.com/oNmQCmAIv-4AAAAd/deltarune-fans.gif');
+        background-position:center;
+        animation: yourAnimation 3s ease 0s 1 normal forwards;
+        pointer-events: none;
+    }
+
+        @keyframes yourAnimation { 0.0%{ opacity: 1;} 75%{ opacity: 1; } 100%{ opacity: 0;} }
+
+    main:before {
+	    width: 100%;
+	    height: 300px;
+	    display: block;
+	    content: "";
+	    background-image: url('https://64.media.tumblr.com/708b30c3c7f85e685b3d83047fd25f3b/0693d0772b465c68-e1/s1280x1920/260ffea15d6cc08ba1d9eede856d900222c131e6.gif');
+	    background-position: center center;
+	    background-size: cover;
+    }
+    @media only screen and (max-width: 600px) {
+	    main:before {
+		    height: 200px;
+	    }
+    }
+
+
+    
+</style>
+
+<img id="santa" src="https://gifdb.com/images/high/running-deltarune-video-game-characters-xyroq3t6zcmtvmy0.gif"/>
+
+<div style="float: left; max-height: 400px; position: fixed; right: 10px; top: 0px; z-index: 200; width: 200px;"><img src="https://static.wikia.nocookie.net/deltarune/images/a/ad/Spamton_NEO_battle_idle.gif/revision/latest/smart/width/250/height/250?cb=20210928203047"/></div>
