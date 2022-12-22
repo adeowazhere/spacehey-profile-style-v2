@@ -95,8 +95,18 @@
         z-index: 998;
     }   /* Santa's sleigh code edited by me to have Susie and Kris run at the bottom of the viewport made by Spacehey */
     
+    /* customizable snowflake styling */
+    .snowflake {
+        color: white;
+        font-size: 1em;
+        font-family: Arial, sans-serif;
+    }
+@keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@keyframes snowflakes-shake{0%,100%{transform:translateX(0)}50%{transform:translateX(80px)}}.snowflake{position:fixed;top:-10%;z-index:9999;user-select:none;cursor:default;animation-name:snowflakes-fall,snowflakes-shake;animation-duration:10s,3s;animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;animation-play-state:running,running}.snowflake:nth-of-type(0){left:1%;animation-delay:0s,0s}.snowflake:nth-of-type(1){left:10%;animation-delay:1s,1s}.snowflake:nth-of-type(2){left:20%;animation-delay:6s,.5s}.snowflake:nth-of-type(3){left:30%;animation-delay:4s,2s}.snowflake:nth-of-type(4){left:40%;animation-delay:2s,2s}.snowflake:nth-of-type(5){left:50%;animation-delay:8s,3s}.snowflake:nth-of-type(6){left:60%;animation-delay:6s,2s}.snowflake:nth-of-type(7){left:70%;animation-delay:2.5s,1s}.snowflake:nth-of-type(8){left:80%;animation-delay:1s,0s}.snowflake:nth-of-type(9){left:90%;animation-delay:3s,1.5s}.snowflake:nth-of-type(10){left:25%;animation-delay:2s,0s}.snowflake:nth-of-type(11){left:65%;animation-delay:4s,2.5s}
+</style>
 </style>
 
 <img id="santa" src="https://gifdb.com/images/high/running-deltarune-video-game-characters-xyroq3t6zcmtvmy0.gif"/> <!--simply the gif for the Kris and Susie animation-->
 
 <div style="float: left; max-height: 400px; position: fixed; right: 10px; top: 0px; z-index: 200; width: 200px;"><img src="https://static.wikia.nocookie.net/deltarune/images/a/ad/Spamton_NEO_battle_idle.gif/revision/latest/smart/width/250/height/250?cb=20210928203047"/></div> <!--hanging Spamton NEO, code (not gif) found on someone's page who didn't make it-->
+
+<div class="snowflakes" aria-hidden="true"><div class="snowflake" style="left: 50px; z-index: -20"><img src="https://cdn.discordapp.com/attachments/850032481142177825/1055445992704577586/20221222_112515.gif" width="100"/></div></div>
